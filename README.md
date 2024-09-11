@@ -24,7 +24,8 @@ This project consists of an AI system that listens to any incoming audio, transc
 The system comprises AI agents for listening, transcribing, and answering the questions. It runs in a continuous loop to detect and respond to questions as they come in.
 
 ---
-
+![image](321198319-3baa3752-8222-4857-a64c-c046693d6315.png)
+[Source:https://github.com/lamm-mit/GraphReasoning/assets/101393859/3baa3752-8222-4857-a64c-c046693d6315]
 ### **Features**
 - **Real-Time Transcription**: Captures and transcribes audio from any source.
 - **AI Question-Answering**: Uses a trained AI model to generate responses based on transcribed questions.
@@ -390,3 +391,8 @@ This project is licensed under the [MIT License](LICENSE). You are free to modif
 
 This project demonstrates the use of real-time AI-driven systems to interact with live audio, transcribe it into text, and generate intelligent responses in real-time. The modularity of the AI agents allows for easy expansion of functionality, and the integration of a user-friendly interface ensures that the system can be effectively used in various live scenarios such as meetings, webinars, and other audio-based interactions.
 
+### ***Readings***
+1- GraphReasoning: Scientific Discovery through Knowledge Extraction and Multimodal Graph-based Representation and Reasoning
+Markus J. Buehler, MIT, 2024 mbuehler@MIT.EDU
+
+2- https://github.com/lamm-mit/GraphReasoning.git
