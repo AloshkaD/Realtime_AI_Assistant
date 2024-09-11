@@ -2,14 +2,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from langgraph.graph import StateGraph
-from .state import TranscriptionState
+from .state import RealTimeAudioState  # Correct import here
 from .nodes import Nodes
 from .crew.crew import AudioTranscriptionCrew
 
 class WorkFlow():
     def __init__(self):
         nodes = Nodes()
-        workflow = StateGraph(TranscriptionState)
+        workflow = StateGraph(RealTimeAudioState)  # Use RealTimeAudioState
 
         workflow.add_node("capture_audio", nodes.capture_audio)
         workflow.add_node("transcribe_audio", nodes.transcribe_audio)

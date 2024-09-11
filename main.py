@@ -1,3 +1,4 @@
+'''
 import threading
 from src.graph import WorkFlow
 
@@ -40,8 +41,10 @@ if __name__ == "__main__":
         while True:
             app_thread.join(1)
             process_thread.join(1)
-    except KeyboardInterrupt
-'''import threading
+    except KeyboardInterrupt:
+        print("Application interrupted.")
+'''
+import threading
 import tkinter as tk
 from src.graph import WorkFlow
 
@@ -59,7 +62,7 @@ class ResponseDisplay:
         self.text_box.insert(tk.END, message + "\n")
         self.text_box.see(tk.END)  # Scroll to the end of the text box
 
-def process_responses(app, state, display):
+def process_responses(state, display):
     while True:
         if state['current_response']:
             # Display the response in the Tkinter window
@@ -85,7 +88,7 @@ def start_application(display):
     app.invoke(state)
 
     # Start the response processing in a separate thread
-    response_thread = threading.Thread(target=process_responses, args=(app, state, display))
+    response_thread = threading.Thread(target=process_responses, args=(state, display))
     response_thread.start()
 
 if __name__ == "__main__":
@@ -99,4 +102,3 @@ if __name__ == "__main__":
 
     # Start the Tkinter main loop
     root.mainloop()
-'''
