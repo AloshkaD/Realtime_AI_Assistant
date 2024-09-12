@@ -16,6 +16,7 @@ class ListSoundDevicesTool(BaseTool):
         p = pyaudio.PyAudio()
         devices = [p.get_device_info_by_index(i) for i in range(p.get_device_count())]
         device_list = [f"{device['name']} - {device['index']}" for device in devices]
+        print("I found the following audio devices on your machine",device_list)
         return "\n".join(device_list)
 
 class SelectAndTapSoundDeviceTool(BaseTool):

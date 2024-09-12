@@ -396,3 +396,5 @@ This project demonstrates the use of real-time AI-driven systems to interact wit
 Markus J. Buehler, MIT, 2024 mbuehler@MIT.EDU
 
 2- https://github.com/lamm-mit/GraphReasoning.git
+
+3- Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers Chenglei Si, Diyi Yang, Tatsunori Hashimoto Stanford University https://arxiv.org/pdf/2409.04109
