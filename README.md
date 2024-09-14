@@ -59,7 +59,7 @@ pip install openai pyaudio tkinter speech_recognition langchain_community crewai
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/AloshkaD/Realtime_AI_Assistant
-   cd real-time-ai-qa
+   cd Realtime_AI_Assistant
    ```
 
 2. **Set up your Python environment:**
